@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import {
   Text,
@@ -21,9 +22,9 @@ const Page = (props) => (
 );
 
 Page.propTypes = {
-  i: React.PropTypes.number,
-  onHide: React.PropTypes.func,
-  color: React.PropTypes.string,
+  i: PropTypes.number,
+  onHide: PropTypes.func,
+  color: PropTypes.string,
 };
 
 
